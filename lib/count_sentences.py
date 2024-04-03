@@ -14,10 +14,10 @@ class MyString:
       self._value = stringVal
      else:
          print("The value must be a string.")
-         
-         
+
+
   sentences = ["This, well, is a sentence. This is too!! And so is this, I think? Woo..."]
-         
+
   def is_sentence(self):
     return self._value.endswith(".")
   
@@ -35,5 +35,3 @@ class MyString:
     # pattern = r'[.?!]+'
     # matches = re.findall(pattern, self.value)
     # return len(matches)
-    
-print(sum())
